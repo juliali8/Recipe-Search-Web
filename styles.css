@@ -1,0 +1,111 @@
+body {
+    background-color: #ffff;
+}
+
+#content {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1, h3 {
+    /* color: darkblue; */
+    padding-bottom: 10px;
+    width: 30%;
+    border-bottom: 1px dotted grey;
+}
+
+h3 {
+    color: #CD7672;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 45px;
+    color: #ffff;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid gray;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background: #534666;
+}
+
+p{
+    color: grey;
+}
+
+#searchBtn {
+    margin-top: 5px;
+    background: #138086;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+}
+
+form {
+    margin-bottom: 60px;
+}
+
+
+.recipe-container {
+    display: inline-block;
+    /* width: 25%; */
+    margin: auto;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    /* margin-top: 5px; */
+    margin-bottom: 50px;
+    background-color: #138086;
+    color: #ffff;
+    width: 90%;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    transition: all 0.3s;
+}
+
+a:hover {
+    background: none;
+    background-color: rgb(134, 189, 207);
+}
+
+img {
+    display: block;
+    padding: 25px;
+    width: 75%;
+    margin: auto;
+}
+
+.delete_button {
+    margin-left: 5px;
+    font-size: 16px;
+    background: none;
+    border: none;
+    color: rgb(160, 6, 6);
+}
+
+.delete_button:hover {
+    color: red;
+    border: 0.2px solid grey;
+}
+
+.currentIngredient {
+    font-size: 20px;
+    color: #DC8665;
+}
+
+#ingredients {
+    margin-bottom: 50px;
+    /* width: 100%; */
+}

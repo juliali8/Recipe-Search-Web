@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Recipe Search</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+	<h1>RECIPE SEARCH</h1>
+
+	<div id="content">
+		<h3>Search for Ingredients:</h3>
+		<p>Enter the ingredients you would like in the recipe. Please submit one at a time.</p>
+
+		<form>
+			<div>
+				<input type="search" id="search" placeholder="ex. Banana">
+				<button type="submit" id="searchBtn">Search</button>
+			</div>
+		</form>
+
+		<p>Please allow some time for ingredients and recipes to load.</p>
+
+		<h3>Ingredients:</h3>
+		<div id="ingredients"></div>
+
+		<h3>Recipes:</h3>
+		<div id="recipeDisplay">
+		</div>
+	</div>
+
+
+
+
+
+	<script src="script.js"></script>
+</body>
+
+</html>
